@@ -1,0 +1,36 @@
+functions:
+    - $(find rosplan_dorna)/src/sensing.py
+topics:
+
+    gripper_closed:
+        params:
+            - scanner
+        topic: /state
+        msg_type: std_msgs/String
+
+    gripper_open:
+        params:
+            - scanner
+        topic: /state
+        msg_type: std_msgs/String
+
+    robot_at:
+        params:
+            - '*'
+            - '*'
+        topic: /state
+        msg_type: std_msgs/String
+
+    holding:
+        params:
+            - 'scanner'
+            - 'cube'
+        topic: /state
+        msg_type: std_msgs/String
+
+    not_holding:
+        params:
+            - 'scanner'
+            - 'cube'
+        topic: /state
+        msg_type: std_msgs/String
