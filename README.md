@@ -1,4 +1,4 @@
-# ROSPlan_dorna
+# rosplan_dorna
 
 ## Installation
 Firstly install the ROSPlan software from https://github.com/KCL-Planning/ROSPlan.
