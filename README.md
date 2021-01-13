@@ -6,7 +6,7 @@ Firstly install the ROSPlan software from https://github.com/KCL-Planning/ROSPla
 Move into the packages folder and clone this package
 ```sh
 cd ROSPlan/src
-git clone https://github.com/christka1/ROSPlan_dorna
+git clone https://github.com/christka1/rosplan_dorna
 ```
 
 Compile again
