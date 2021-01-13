@@ -9,7 +9,7 @@ cd ROSPlan/src
 git clone https://github.com/christka1/rosplan_dorna
 ```
 
-Compile again
+Compile the package
 ```sh
 cd ..
 catkin build rosplan_dorna
