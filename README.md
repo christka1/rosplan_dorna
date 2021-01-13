@@ -4,9 +4,10 @@
 Firstly install the ROSPlan software from https://github.com/KCL-Planning/ROSPlan.
 
 Move into the packages folder and clone this package
-'''sh
+```sh
 cd ROSPlan/src
-'''
+git clone https://github.com/christka1/ROSPlan_dorna
+```
 
 Compile again
 ```sh
