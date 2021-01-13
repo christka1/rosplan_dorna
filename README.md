@@ -11,6 +11,7 @@ git clone https://github.com/christka1/rosplan_dorna
 
 Compile again
 ```sh
+cd ..
 catkin build rosplan_dorna
 ```
 
